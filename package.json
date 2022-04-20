@@ -1,0 +1,17 @@
+{
+  "name": "apiko-secrets-manager",
+  "version": "0.0.1",
+  "description": "This package encrypts and decrypts files using the GPG program and keys stored in AWS Parameter Store",
+  "bin": {
+    "secrets_manager": "./bin/secrets_manager"
+  },
+  "keywords": [
+    "bash",
+    "gpg",
+    "aws",
+    "encryption",
+    "decryption"
+  ],
+  "author": "devops-apiko",
+  "license": "ISC"
+}
